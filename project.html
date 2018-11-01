@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>  
+<html lang="en">
+<title>Li Ruohan's Personal Website</title>
+<head>
+<style>
+.error {color: #FF0000;}
+.header, .footer{
+    background-color: rgb(139, 153, 158);
+    color: white;
+    padding: 8px;
+    align: right;
+    font-size: 100%;
+}
+
+.tab { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+    .button {
+        background-color: rgb(38, 73, 87);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+
+        font-size: 16px;
+        margin: 4px 2px;
+
+    }
+    ul.b {
+    list-style-type: square;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: rgb(44, 110, 134);
+    color: white;
+    padding: 8px 13px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45049;
+}
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+fieldset {
+  border-radius: 8px;
+  height: 100%;
+}
+.box{
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid rgb(38, 73, 87);
+    padding: 25px;
+    margin: 25px;
+}
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+</style>
+</head>
+<body style="height: 100%;">  
+
+<div class="header" style="width:99%; height: 100%">
+<p style="text-align:left;font-size: 200%;">Li Ruohan</p>
+<p style="text-align: right;"><a href="mailto:linda1436311@gmail.com" style="text-decoration: none;color: white; ">Contact me: linda1436311@gmail.com</a></p>
+
+</div>
+
+<h3 style="color:darkblue;"><a style="color:rgb(38, 73, 87); text-decoration: none;"  class="active" href="./index.html">Home</a> 
+<span class="tab"><a style="color:rgb(38, 73, 87); text-decoration: none;"  href="./project.html">Research Projects</a>
+</h3>
+<hr>
+
+<fieldset style="border: 10px solid rgb(139, 153, 158);padding: 10px;">
+<legend style="color:rgb(231, 144, 31);font-size: 130%;">Comparison and Integration of Different Post-model-selection Inference Procedures</legend>
+
+  <ul class="b">
+  <li><strong>Introduction</strong><p>In classical model-based inferences, hypothesis testing and confidence intervals are proved to be valid under the assumption that model selection and data analysis are independent processes and can be treated separately. However, in practice, a two-step method is often involved and the model is selected by data-driven procedures. Therefore, we cannot simply assume the selected model is correct.</p>
+<p>In recent decades, many researchers have been aware of the post-selection problem. Empirical results have shown that when the model selection results are very unstable, the resulting coverage probabilities can be far below the desirable level, regardless of the sample size. </p>
+</li>
+
+  <li><strong>Developed R Packages</strong><p>I have developed our own R packages that are convenient for the general users to implement the relatively complex post-model-selection inference methods. Relative R packages can be downloaded from <a style="color:rgb(38, 73, 87);"  href="https://github.com/liruohan1436311/Mixed_Residual_Bootstrap">https://github.com/liruohan1436311/Mixed_Residual_Bootstrap</a></p></li>
+
+</ul></fieldset>
+
+</body>
+</html>
